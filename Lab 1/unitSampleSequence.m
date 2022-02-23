@@ -1,4 +1,5 @@
 function unitSampleSequence(delay,length)
+  %Unit Sample Sequence
   y=[zeros(1,delay) 1 zeros(1,length-delay-1)];
   x=0:(length-1);
   figure(2);

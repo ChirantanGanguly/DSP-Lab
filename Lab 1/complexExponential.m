@@ -1,4 +1,5 @@
 function complexExponential(amplitude,real_pow,img_pow,length)
+  %Complex Exponential Sequence
   c=real_pow+img_pow*i;
   n=0:(length-1);
   y=amplitude*exp(c*n);
