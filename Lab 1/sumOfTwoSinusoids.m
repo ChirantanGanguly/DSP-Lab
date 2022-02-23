@@ -1,6 +1,6 @@
 function sumOfTwoSinusoids(freq1,freq2,length)
   %Sinusoidal Sequemce
-  n=0:(length-1);
+  n=0:(length);
   x1=cos(freq1*n);
   x2=cos(freq2*n);
   x=x1+x2;
