@@ -3,14 +3,16 @@
 % Amitrakshar Sanyal (422)
 % ================================
 n=0:100;
-f1=0.2
-f2=0.02
+f1=0.2;
+f2=0.02;
 x1=cos(f1*pi*n);
 x2=cos(f2*pi*n);
 y=x1.*x2;
 new_f1=f1+f2;
 new_f2=f1-f2;
 norm_f_beat=abs(f1-f2);
+fprintf('New Normalized Frequencies: %d and %d\n',new_f1,new_f2);
+fprintf('Normalized Beat Frequency = %d\n',norm_f_beat);
 figure(1);
 subplot(3,1,1);
 plot(n,x1);
