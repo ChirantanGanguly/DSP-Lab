@@ -52,7 +52,3 @@ grid;
 xlabel('Frequency wn in Hz');
 ylabel('Amplitude');
 title('Gain-Frequency Response of Elliptic Filter');
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
